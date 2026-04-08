@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TbAlB(OF2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.89261103
+_cell_length_b   4.81756973
+_cell_length_c   4.96310806
+_cell_angle_alpha   94.58669281
+_cell_angle_beta   92.65618896
+_cell_angle_gamma   91.02465820
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbAlB(OF2)2
+_chemical_formula_sum   'Tb1 Al1 B1 O2 F4'
+_cell_volume   116.45560761
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.77912486  0.41316926  0.36125776  1
+  F  F1  1  0.53706980  0.02340464  0.53354335  1
+  Al  Al2  1  0.04061469  0.46912292  0.10960272  1
+  O  O3  1  0.29670519  0.41959426  0.37138069  1
+  Tb  Tb4  1  0.03958134  0.80780518  0.61248785  1
+  B  B5  1  0.53719610  0.29544374  0.40382427  1
+  F  F6  1  0.79387945  0.67471439  0.93122327  1
+  F  F7  1  0.04062661  0.17656843  0.88068628  1
+  F  F8  1  0.28668129  0.66589260  0.93289906  1

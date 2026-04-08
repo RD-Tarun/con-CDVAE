@@ -4,8 +4,8 @@ from pymatgen.core.lattice import Lattice
 from pymatgen.core.composition import Composition
 import os
 
-dataroot = 'YOUR_PATH_TO_.PT'
-datafile = 'eval_gen_abc.pt'
+dataroot = r'C:\Users\Admin\Downloads\Battery\Con-CDVAE\src\model\mp20_format'
+datafile = 'eval_gen_FM4.pt'
 
 datafile_read = os.path.join(dataroot, datafile)
 data = torch.load(datafile_read,map_location=torch.device('cpu'))
@@ -25,25 +25,56 @@ frac_coors_list = frac_coors.numpy().tolist()
 atom_types_list = atom_types.tolist()
 
 num_materal = 0
-for i in range(len(num_atoms_list)): #第i个batch？
-    now_atom = 0
-    for a in range(len(num_atoms_list[i])): #第a个材料
-        cif_mat_path = os.path.join(cif_path, str(num_materal))
-        length = lengths_list[i][a]
-        angle = angles_list[i][a]
-        atom_num = num_atoms_list[i][a]
+now_atom = 0
 
-        atom_type = atom_types_list[i][now_atom: now_atom + atom_num]
-        frac_coord = frac_coors_list[i][now_atom: now_atom + atom_num][:]
-        lattice = Lattice.from_parameters(a=length[0], b=length[1], c=length[2], alpha=angle[0],
-                                          beta=angle[1], gamma=angle[2])
+for a in range(len(num_atoms_list[0])):   
+    length = lengths_list[0][a]
+    angle = angles_list[0][a]
+    atom_num = num_atoms_list[0][a]
 
-        structure = Structure(lattice, atom_type, frac_coord, to_unit_cell=True)
-        filename = datafile[:-3]+'__' + str(num_materal) + '.cif'
-        file_path = os.path.join(cif_path, filename)
-        structure.to(filename=file_path)
-        now_atom += atom_num
-        num_materal += 1
+    atom_type = atom_types_list[0][now_atom: now_atom + atom_num]
+    frac_coord = frac_coors_list[0][now_atom: now_atom + atom_num]
+
+    lattice = Lattice.from_parameters(
+        a=length[0], b=length[1], c=length[2],
+        alpha=angle[0], beta=angle[1], gamma=angle[2]
+    )
+
+    structure = Structure(lattice, atom_type, frac_coord, to_unit_cell=True)
+
+    filename = f"{datafile[:-3]}__{num_materal}.cif"
+    file_path = os.path.join(cif_path, filename)
+
+    structure.to(filename=file_path)
+
+    now_atom += atom_num
+    num_materal += 1
+
+# num_materal = 0
+
+# print(type(num_atoms_list))
+# print(type(num_atoms_list[0]))
+# print(num_atoms_list[:5])
+
+# for i in range(len(num_atoms_list)): #第i个batch？
+#     now_atom = 0
+#     for a in range(len(num_atoms_list[i])): #第a个材料
+#         cif_mat_path = os.path.join(cif_path, str(num_materal))
+#         length = lengths_list[i][a]
+#         angle = angles_list[i][a]
+#         atom_num = num_atoms_list[i][a]
+
+#         atom_type = atom_types_list[i][now_atom: now_atom + atom_num]
+#         frac_coord = frac_coors_list[i][now_atom: now_atom + atom_num][:]
+#         lattice = Lattice.from_parameters(a=length[0], b=length[1], c=length[2], alpha=angle[0],
+#                                           beta=angle[1], gamma=angle[2])
+
+#         structure = Structure(lattice, atom_type, frac_coord, to_unit_cell=True)
+#         filename = datafile[:-3]+'__' + str(num_materal) + '.cif'
+#         file_path = os.path.join(cif_path, filename)
+#         structure.to(filename=file_path)
+#         now_atom += atom_num
+#         num_materal += 1
 
 print('end')
 

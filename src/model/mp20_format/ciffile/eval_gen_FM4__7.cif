@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_RbCe2TiBeO6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.05911016
+_cell_length_b   6.01997328
+_cell_length_c   6.24196339
+_cell_angle_alpha   115.29696655
+_cell_angle_beta   96.52156067
+_cell_angle_gamma   107.92601013
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbCe2TiBeO6F
+_chemical_formula_sum   'Rb1 Ce2 Ti1 Be1 O6 F1'
+_cell_volume   187.73541220
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.45241356  0.40190703  0.10569376  1
+  O  O1  1  0.38403660  0.00470013  0.42778292  1
+  Ce  Ce2  1  0.77692121  0.02225591  0.71714902  1
+  O  O3  1  0.51908088  0.52908236  0.50421214  1
+  O  O4  1  0.07913312  0.98465097  0.98733819  1
+  Ti  Ti5  1  0.05749364  0.78614527  0.14496602  1
+  O  O6  1  0.12622017  0.46779868  0.97421622  1
+  Be  Be7  1  0.51838237  0.33404291  0.59929377  1
+  F  F8  1  0.59726632  0.06844840  0.01246368  1
+  O  O9  1  0.85601169  0.85044968  0.35937038  1
+  O  O10  1  0.69877863  0.44873980  0.85748553  1
+  Rb  Rb11  1  0.06146684  0.51361382  0.52528965  1

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_CeAgP(O2F)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.38567019
+_cell_length_b   4.60312033
+_cell_length_c   6.70797873
+_cell_angle_alpha   107.00485229
+_cell_angle_beta   99.97489929
+_cell_angle_gamma   111.53502655
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeAgP(O2F)2
+_chemical_formula_sum   'Ce1 Ag1 P1 O4 F2'
+_cell_volume   114.30987378
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  P  P0  1  0.03277919  0.29717687  0.22284935  1
+  F  F1  1  0.43836418  0.04598276  0.67847496  1
+  Ce  Ce2  1  0.86567152  0.88885224  0.58240974  1
+  O  O3  1  0.38156021  0.43783745  0.40074328  1
+  O  O4  1  0.76669228  0.06140943  0.27775946  1
+  O  O5  1  0.96956253  0.58025396  0.24223310  1
+  O  O6  1  0.05249701  0.13042170  0.99046147  1
+  F  F7  1  0.02808437  0.49110213  0.71696472  1
+  Ag  Ag8  1  0.55436134  0.57621241  0.96019971  1

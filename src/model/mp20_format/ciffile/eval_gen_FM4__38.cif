@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LaDySnGeO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.04531527
+_cell_length_b   5.29209328
+_cell_length_c   6.52218962
+_cell_angle_alpha   103.63825226
+_cell_angle_beta   93.08436584
+_cell_angle_gamma   93.61539459
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaDySnGeO8
+_chemical_formula_sum   'La1 Dy1 Sn1 Ge1 O8'
+_cell_volume   168.47332465
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ge  Ge0  1  0.25618386  0.78145742  0.79845446  1
+  O  O1  1  0.49082625  0.64574373  0.93063915  1
+  O  O2  1  0.75100714  0.59518635  0.34604427  1
+  O  O3  1  0.90476531  0.11484230  0.37969700  1
+  Sn  Sn4  1  0.71148759  0.89159036  0.14541727  1
+  O  O5  1  0.80415171  0.17040837  0.90254778  1
+  O  O6  1  0.26018935  0.56129408  0.54264212  1
+  La  La7  1  0.12633739  0.35355762  0.16649677  1
+  O  O8  1  0.31145254  0.10894617  0.80441505  1
+  O  O9  1  0.42967948  0.09417906  0.29376140  1
+  Dy  Dy10  1  0.60984111  0.32229441  0.61129034  1
+  O  O11  1  0.01647066  0.70497578  0.97616106  1

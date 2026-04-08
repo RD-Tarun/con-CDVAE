@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_SrTh4(SO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.55341506
+_cell_length_b   6.28633356
+_cell_length_c   10.54548931
+_cell_angle_alpha   94.65345001
+_cell_angle_beta   91.23542786
+_cell_angle_gamma   101.61727142
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrTh4(SO3)2
+_chemical_formula_sum   'Sr1 Th4 S2 O6'
+_cell_volume   229.80506035
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.06123364  0.81703806  0.56147617  1
+  Th  Th1  1  0.93500572  0.56296766  0.13282840  1
+  S  S2  1  0.48767215  0.67893660  0.90632135  1
+  Th  Th3  1  0.82293290  0.34677616  0.72865695  1
+  Th  Th4  1  0.29448920  0.27683598  0.38986665  1
+  O  O5  1  0.90501964  0.49871227  0.35932040  1
+  Th  Th6  1  0.18830405  0.06427819  0.98441869  1
+  S  S7  1  0.62890029  0.94618577  0.21207783  1
+  O  O8  1  0.40306693  0.51253796  0.59964573  1
+  O  O9  1  0.78006899  0.25890264  0.95379567  1
+  O  O10  1  0.33393925  0.36501458  0.15836814  1
+  O  O11  1  0.71088052  0.12056123  0.51712793  1
+  O  O12  1  0.21761689  0.13393371  0.75590390  1

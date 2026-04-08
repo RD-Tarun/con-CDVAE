@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_AlAg(OF)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.06146097
+_cell_length_b   4.69226742
+_cell_length_c   6.62775850
+_cell_angle_alpha   99.69515991
+_cell_angle_beta   94.94097900
+_cell_angle_gamma   104.64572144
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlAg(OF)2
+_chemical_formula_sum   'Al1 Ag1 O2 F2'
+_cell_volume   89.96913496
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O  O0  1  0.66394001  0.63401049  0.37666473  1
+  F  F1  1  0.81536293  0.16694809  0.15845048  1
+  Ag  Ag2  1  0.39890972  0.87185568  0.58515352  1
+  F  F3  1  0.98342860  0.58200341  0.01426426  1
+  Al  Al4  1  0.40049750  0.37041664  0.07927072  1
+  O  O5  1  0.13415343  0.10854334  0.78926009  1

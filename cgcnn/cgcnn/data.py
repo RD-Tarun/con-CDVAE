@@ -396,7 +396,8 @@ class pt2Data(Dataset):
         self.train_id = list(range(len(struct_list)))
         self.train_stru = struct_list
 
-        atom_init_file = os.path.join('/home/cyye/1-materialdesign/1-CDVAE/cgcnn/data/perov_5', 'atom_init.json')
+        # atom_init_file = os.path.join('/home/cyye/1-materialdesign/1-CDVAE/cgcnn/data/perov_5', 'atom_init.json') #this was original code
+        atom_init_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'mptest', 'atom_init.json')
         assert os.path.exists(atom_init_file), 'atom_init.json does not exist!'
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)

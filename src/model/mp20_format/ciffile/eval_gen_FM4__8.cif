@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr4CaAl3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.86004305
+_cell_length_b   5.91691637
+_cell_length_c   7.76692581
+_cell_angle_alpha   92.86772156
+_cell_angle_beta   88.95113373
+_cell_angle_gamma   90.36833954
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4CaAl3O10
+_chemical_formula_sum   'Sr4 Ca1 Al3 O10'
+_cell_volume   268.91919033
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.34335157  0.22964092  0.12202949  1
+  O  O1  1  0.38901734  0.35740784  0.31584808  1
+  Sr  Sr2  1  0.36271679  0.78453624  0.39964908  1
+  Ca  Ca3  1  0.35959634  0.29970151  0.62468100  1
+  O  O4  1  0.87151951  0.76297349  0.33401465  1
+  Sr  Sr5  1  0.84967220  0.32675284  0.39832801  1
+  Sr  Sr6  1  0.85823041  0.33469662  0.85007304  1
+  O  O7  1  0.03587910  0.13041276  0.12500213  1
+  O  O8  1  0.38516799  0.36826572  0.92931569  1
+  O  O9  1  0.08597023  0.56887937  0.62217045  1
+  O  O10  1  0.08865378  0.03448209  0.62238330  1
+  Sr  Sr11  1  0.36585170  0.79122609  0.84278923  1
+  O  O12  1  0.63646668  0.57921582  0.61779845  1
+  O  O13  1  0.63761848  0.03002600  0.62025899  1
+  O  O14  1  0.52712506  0.98867601  0.12202914  1
+  Al  Al15  1  0.84463942  0.88855731  0.12289622  1
+  Al  Al16  1  0.86442524  0.80313194  0.61991686  1
+  O  O17  1  0.87550634  0.76340425  0.90590405  1

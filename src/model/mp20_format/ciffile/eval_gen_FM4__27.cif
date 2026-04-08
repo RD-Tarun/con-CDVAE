@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ba2CdF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.72468996
+_cell_length_b   5.12980413
+_cell_length_c   8.61215496
+_cell_angle_alpha   104.99475098
+_cell_angle_beta   107.61306763
+_cell_angle_gamma   103.64347076
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2CdF6
+_chemical_formula_sum   'Ba2 Cd1 F6'
+_cell_volume   180.63656662
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.77508402  0.39618775  0.05832891  1
+  Cd  Cd1  1  0.09117860  0.71577436  0.73504043  1
+  F  F2  1  0.22355111  0.88172525  0.02239847  1
+  Ba  Ba3  1  0.47363740  0.07877791  0.41030133  1
+  F  F4  1  0.85731363  0.98393846  0.23122926  1
+  F  F5  1  0.36618167  0.48314008  0.22638479  1
+  F  F6  1  0.99377286  0.60491019  0.44791520  1
+  F  F7  1  0.55607224  0.58064228  0.73643202  1
+  F  F8  1  0.95060819  0.18309776  0.73594224  1

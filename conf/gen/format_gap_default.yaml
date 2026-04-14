@@ -1,0 +1,25 @@
+model_path: ${oc.env:PROJECT_ROOT}/output/hydra/singlerun/FORMAT_GAP_MODEL_DIR  # UPDATE: path to your trained dual-condition model directory
+prior_path: None                                              # if set None, will use model_path
+model_file: None                                              # ckpt of the main model, if set None, will use the latest epoch ckpt
+prior_file: None                                              # ckpt of the prior model, if set None, will use the {prior_label}-last.ckpt in prior_path
+prior_label: prior_default                                    # label of the prior model
+# prior_label and prior_file can not be both None
+
+label: 'format_gap'           # Suffix tag for output filenames
+deterministic: true           # Enable deterministic behavior (seed all RNGs)
+seed: 123                     # Random seed used when deterministic is true
+batch_size: 20                # Number of latent samples per batch (pre down-sampling)
+down_sample: 1                # Oversample factor; keep batch_size/down_sample best-matching z
+num_batches_to_samples: 2     # Number of z batches to sample/generate
+save_traj: false              # Save full Langevin trajectories for analysis
+down_sample_traj_step: 10     # Save every N-th trajectory step when save_traj is true
+num_samples_per_z: 1          # Number of samples drawn per z embedding
+use_one: true                 # Use a single example to handle missing condition features
+
+input_path: ${oc.env:PROJECT_ROOT}/src/model/mp20_format/general_format_gap.csv    # CSV of target conditions (both formation_energy + band_gap)
+refdata_path: ${oc.env:PROJECT_ROOT}/data/mp4conz/train.csv   # Reference data for prior statistics
+
+disable_bar: false            # Disable progress bars during sampling
+min_sigma: 0.0               # Minimum noise level (sigma) in Langevin dynamics
+step_lr: 1e-4                # Step size for Langevin updates
+n_step_each: 100             # Langevin steps per noise level/phase

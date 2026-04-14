@@ -1,7 +1,7 @@
 condition_predict:                                           # Predict conditions from z to regularize latent space
   - _target_: concdvae.pl_modules.PreCondition.ScalarConditionPredict  # Scalar regression head (MSE)
     condition_name: formation_energy_per_atom               # Property name in batch input
-    condition_min: -5.0                                     # Min value for normalization
+    condition_min: -6.0                                     # Min value for normalization (aligned with mp_format)
     condition_max: 1.0                                      # Max value for normalization
     latent_dim: ${model.latent_dim}                         # Input dimension (z)
     hidden_dim: 256                                         # Hidden size in MLP
@@ -16,3 +16,4 @@ condition_predict:                                           # Predict condition
     hidden_dim: 256                                        # Hidden size in MLP
     out_dim: 1                                             # Output dimension (scalar)
     n_layers: 2                                            # MLP depth
+
